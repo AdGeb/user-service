@@ -1,0 +1,48 @@
+# Build artifacts (but keep build/libs/*.jar)
+build/
+!build/libs/
+!build/libs/*.jar
+target/
+*.jar
+!build/libs/*.jar
+*.war
+!gradle/wrapper/gradle-wrapper.jar
+
+# Gradle files
+.gradle/
+.gradletasknamecache
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*.md
+!HELP.md
+
+# Test reports
+build/reports/
+build/test-results/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
