@@ -32,6 +32,8 @@ dependencies {
     //    Spring
     implementation 'org.springframework.modulith:spring-modulith-starter-core'
     implementation("org.springframework.boot:spring-boot-starter-web:4.0.1")
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
     compileOnly 'org.projectlombok:lombok'
 
